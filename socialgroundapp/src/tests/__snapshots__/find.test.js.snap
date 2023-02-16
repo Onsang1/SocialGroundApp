@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Find matches snapshot 1`] = `
+Array [
+  <div
+    className="Find-Page"
+  >
+    <div
+      className="logo-area"
+    >
+      <a
+        href="/Feed"
+        onClick={[Function]}
+      >
+        <button
+          className="logo-button"
+          type="button"
+        >
+          <img
+            alt="large_logo"
+            className="large-logo"
+            src={Object {}}
+          />
+        </button>
+      </a>
+    </div>
+    <h3
+      className="FindMessage"
+    >
+      Find Friends on Social Ground
+    </h3>
+    <div
+      className="search-area"
+    >
+      <div
+        className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink={false}
+          htmlFor="outlined-basic"
+          id="outlined-basic-label"
+        >
+          Search
+        </label>
+        <div
+          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+            disabled={false}
+            id="outlined-basic"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Enter username"
+            required={false}
+            type="text"
+          />
+          <fieldset
+            aria-hidden={true}
+            className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="css-yjsfm1"
+            >
+              <span>
+                Search
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <p
+      className="suggestedText"
+    >
+       Suggestions
+    </p>
+  </div>,
+  ",",
+]
+`;
+
+exports[`NotFound matches snapshot 1`] = `
+Array [
+  <div
+    className="not-found"
+  >
+    <h2>
+      Sorry
+    </h2>
+    <p>
+      That page cannot be found
+    </p>
+    <a
+      href="/Feed"
+      onClick={[Function]}
+    >
+      Back to the homepage...
+    </a>
+  </div>,
+  ",",
+]
+`;

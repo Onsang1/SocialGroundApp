@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test to see if loading components are rendered 1`] = `
+<img
+  alt="loading"
+  data-testid="loading"
+  id="loading"
+  src={Object {}}
+/>
+`;
