@@ -1,0 +1,330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test rendering 1`] = `
+<div
+  id="posts"
+>
+  <article
+    className="post-box"
+  >
+    <div
+      className="post"
+    >
+      <div
+        className="profile-info"
+      >
+        <div
+          className="profile-area"
+        >
+          <div
+            className="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+          >
+            <img
+              alt="User"
+              className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+              src={Object {}}
+            />
+          </div>
+        </div>
+        <a
+          className="username"
+          href="/profile"
+          onClick={[Function]}
+        >
+          mario
+        </a>
+        <div
+          className="post-top-right-section"
+        >
+          <button
+            id="editPostButton"
+            type="button"
+          >
+            <img
+              alt="editButton"
+              id="editButton"
+              src={Object {}}
+            />
+          </button>
+          <button
+            id="deletePostButton"
+            onClick={[Function]}
+            type="button"
+          >
+            <img
+              alt="deleteButton"
+              id="deleteButton"
+              src={Object {}}
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        className="postArea"
+      >
+        <img
+          alt="flower pic"
+          className="post-image"
+          src="image"
+        />
+      </div>
+      <div
+        className="likeArea"
+      >
+        <div
+          className="like-box"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-colorInherited MuiSvgIcon-fontSizeMedium css-bq05nv-MuiSvgIcon-root"
+              data-testid="FavoriteBorderIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          className="comment-box"
+        >
+          <button
+            className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-colorInherited MuiSvgIcon-fontSizeMedium css-bq05nv-MuiSvgIcon-root"
+              data-testid="CommentIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <br />
+      <div
+        className="captionArea"
+      >
+        <a
+          className="username"
+          href="/users/1"
+          onClick={[Function]}
+        >
+          mario
+        </a>
+        <p
+          className="caption"
+        >
+           
+          My First Blog
+           
+        </p>
+      </div>
+      <div
+        className="numComments"
+      >
+        <ul
+          className="MuiList-root MuiList-padding css-7ctcic-MuiList-root"
+        >
+          <li
+            className="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-alignItemsFlexStart css-hhvo2v-MuiListItem-root"
+            disabled={false}
+          >
+            <div
+              className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart css-1m6607n-MuiListItemAvatar-root"
+            >
+              <div
+                className="MuiAvatar-root MuiAvatar-circular css-1wlk0hk-MuiAvatar-root"
+              >
+                <img
+                  alt="Remy Sharp"
+                  className="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                  src="https://images.unsplash.com/photo-1609220361638-14ceb45e5e1e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max"
+                />
+              </div>
+            </div>
+            <div
+              className="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+            >
+              <span
+                className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+              >
+                username
+              </span>
+              <span
+                className="MuiTypography-root MuiTypography-body2 css-1phucj-MuiTypography-root"
+              >
+                this is comment
+              </span>
+            </div>
+          </li>
+          <li
+            className="MuiDivider-root MuiDivider-inset css-uls1yk-MuiDivider-root"
+            role="separator"
+          />
+        </ul>
+      </div>
+       
+      <br />
+      <div
+        className="bottom"
+      >
+        <form
+          className="form-input"
+        >
+          <div
+            className="smily-face"
+          >
+            <img
+              alt="happy-face-icon"
+              className="happy-face-icon"
+              src={Object {}}
+            />
+          </div>
+          <div
+            className="mentions mentions--multiLine"
+            style={
+              Object {
+                "overflowY": "visible",
+                "position": "relative",
+              }
+            }
+          >
+            <div
+              className="mentions__control"
+              style={Object {}}
+            >
+              <div
+                className="mentions__highlighter"
+                style={
+                  Object {
+                    "border": "1px solid transparent",
+                    "boxSizing": "border-box",
+                    "color": "transparent",
+                    "overflow": "hidden",
+                    "position": "relative",
+                    "textAlign": "start",
+                    "whiteSpace": "pre-wrap",
+                    "width": "100%",
+                    "wordWrap": "break-word",
+                  }
+                }
+              >
+                 
+              </div>
+              <textarea
+                className="mentions__input"
+                id="inpt"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onCompositionEnd={[Function]}
+                onCompositionStart={[Function]}
+                onKeyDown={[Function]}
+                onScroll={[Function]}
+                onSelect={[Function]}
+                placeholder="Add a comment Here and Mention people using '@' "
+                style={
+                  Object {
+                    "backgroundColor": "transparent",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "fontFamily": "inherit",
+                    "fontSize": "inherit",
+                    "height": "100%",
+                    "left": 0,
+                    "letterSpacing": "inherit",
+                    "margin": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "resize": "none",
+                    "top": 0,
+                    "width": "100%",
+                  }
+                }
+                value=""
+              />
+            </div>
+          </div>
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall css-jh3059-MuiButtonBase-root-MuiButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="submit"
+          >
+            Send
+            <span
+              className="MuiButton-endIcon MuiButton-iconSizeSmall css-155nyw6-MuiButton-endIcon"
+            >
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="SendIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2z"
+                />
+              </svg>
+            </span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </article>
+</div>
+`;
