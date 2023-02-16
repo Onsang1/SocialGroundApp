@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialGround upload page matches snapshot 1`] = `
+<div
+  id="react-root"
+>
+  <div
+    aria-disabled="false"
+    role="button"
+  >
+    <a
+      href="/Feed"
+      onClick={[Function]}
+    >
+      <img
+        alt="sg-logo-small"
+        className="sg-logo-small"
+        src={Object {}}
+      />
+    </a>
+  </div>
+  <div
+    className="main-body"
+  >
+    <div
+      className="select-box"
+    />
+    <div
+      className="select-text"
+    >
+      <form
+        action="http://localhost:3000"
+        method="POST"
+      >
+        <img
+          alt="Select file from device"
+          id="imageid"
+        />
+        <input
+          data-testid="fileInput"
+          onChange={[Function]}
+          type="file"
+        />
+      </form>
+    </div>
+    <span
+      className="new-post"
+    >
+      New Post
+    </span>
+    <button
+      className="share"
+      data-testid="shareButton"
+      id="clickMe"
+      type="button"
+    >
+      Share
+    </button>
+    <a
+      href="/profile"
+      onClick={[Function]}
+    >
+      <a
+        className="cancel"
+        href="/profile"
+      >
+        Cancel
+      </a>
+    </a>
+    <textarea
+      className="caption-box"
+      id="searchTxt"
+      type="text"
+    />
+    <div
+      className="footnotes"
+    >
+      <span>
+        @ Tag Users
+      </span>
+      <br />
+      <span>
+        Privacy Settings
+      </span>
+    </div>
+  </div>
+</div>
+`;
