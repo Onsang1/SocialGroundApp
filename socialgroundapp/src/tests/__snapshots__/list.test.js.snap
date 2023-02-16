@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test to see if list components are rendered 1`] = `
+<ul>
+  <li>
+    <div
+      className="user-info-area"
+    >
+      <div
+        className="left"
+      >
+        <img
+          alt=""
+          className="profile-icon"
+          src={Object {}}
+        />
+      </div>
+      <div
+        className="middle"
+      >
+        <p
+          className="username"
+        >
+          Bret
+        </p>
+      </div>
+      <div
+        className="right"
+      >
+        <button
+          className="submit-button-find"
+          onClick={[Function]}
+          type="submit"
+        >
+          <div
+            className="button-label"
+          >
+            Follow
+          </div>
+        </button>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div
+      className="user-info-area"
+    >
+      <div
+        className="left"
+      >
+        <img
+          alt=""
+          className="profile-icon"
+          src={Object {}}
+        />
+      </div>
+      <div
+        className="middle"
+      >
+        <p
+          className="username"
+        >
+          Antonette
+        </p>
+      </div>
+      <div
+        className="right"
+      >
+        <button
+          className="submit-button-find"
+          onClick={[Function]}
+          type="submit"
+        >
+          <div
+            className="button-label"
+          >
+            Follow
+          </div>
+        </button>
+      </div>
+    </div>
+  </li>
+</ul>
+`;
