@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialGround upload page matches snapshot 1`] = `
+<div
+  id="react-root"
+>
+  <div
+    aria-disabled="false"
+    role="button"
+  >
+    <a
+      href="/Feed"
+      onClick={[Function]}
+    >
+      <img
+        alt="sg-logo-small"
+        className="sg-logo-small"
+        src={Object {}}
+      />
+    </a>
+  </div>
+  <div
+    className="main-body"
+  >
+    <div
+      className="select-box"
+    />
+    <div
+      className="select-text"
+    >
+      <form
+        action="http://localhost:3000.com/"
+        method="POST"
+      >
+        <img
+          alt="Select file from device"
+          id="imageid"
+        />
+        <input
+          onChange={[Function]}
+          type="file"
+        />
+      </form>
+    </div>
+    <span
+      className="new-post"
+    >
+      New Post
+    </span>
+    <a
+      href="/profile"
+      onClick={[Function]}
+    >
+      <span
+        className="new-post"
+      >
+        New Post
+      </span>
+    </a>
+    <a
+      href="/profile"
+      onClick={[Function]}
+    >
+      <button
+        className="share"
+        type="button"
+      >
+        Share
+      </button>
+    </a>
+    <a
+      href="/profile"
+      onClick={[Function]}
+    >
+      <span
+        className="cancel"
+      >
+        Cancel
+      </span>
+    </a>
+    <blockquote
+      className="caption-box"
+      contentEditable="true"
+    >
+      <h1
+        style={
+          Object {
+            "color": "gray",
+          }
+        }
+      >
+        Enter Caption...
+      </h1>
+    </blockquote>
+    <div
+      className="footnotes"
+    >
+      <span>
+        @ Tag Users
+      </span>
+      <br />
+      <span>
+        Privacy Settings
+      </span>
+    </div>
+  </div>
+</div>
+`;

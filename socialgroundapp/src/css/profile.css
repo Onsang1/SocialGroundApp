@@ -1,0 +1,214 @@
+body {
+  font-size: 14px;
+}
+.main-body {
+  width: 100%;
+  height: 2634px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.box1 {
+  width: 454px;
+  height: 415px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 825px;
+  left: 139px;
+  overflow: hidden;
+}
+.box2 {
+  width: 454px;
+  height: 415px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 825px;
+  left: 633px;
+  overflow: hidden;
+}
+.box3 {
+  width: 454px;
+  height: 415px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 825px;
+  left: 1127px;
+  overflow: hidden;
+}
+.box4 {
+  width: 454px;
+  height: 415px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 1317px;
+  left: 140px;
+  overflow: hidden;
+}
+.box5 {
+  width: 454px;
+  height: 415px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 1317px;
+  left: 633px;
+  overflow: hidden;
+}
+.box6 {
+  width: 454px;
+  height: 415px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 1317px;
+  left: 1127px;
+  overflow: hidden;
+}
+.box7 {
+  width: 454px;
+  height: 415px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 1809px;
+  left: 140px;
+  overflow: hidden;
+}
+.box8 {
+  width: 454px;
+  height: 415px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 1809px;
+  left: 633px;
+  overflow: hidden;
+}
+.box9 {
+  width: 454px;
+  height: 415px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 1809px;
+  left: 1127px;
+  overflow: hidden;
+}
+.username {
+  width: 317px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 491px;
+  left: 132px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.posts {
+  width: 168px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 370px;
+  left: 550px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.followers {
+  width: 359px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 373px;
+  left: 790px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.following {
+  width: 359px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 376px;
+  left: 1150px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.posts-count {
+  width: 54px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 268px;
+  left: 590px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 96px;
+  opacity: 1;
+  text-align: center;
+}
+.followers-count {
+  width: 54px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 268px;
+  left: 860px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 96px;
+  opacity: 1;
+  text-align: center;
+}
+.following-count {
+  width: 54px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 268px;
+  left: 1220px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 96px;
+  opacity: 1;
+  text-align: center;
+}
+.user-logo {
+  width: 7%;
+  height: 7%;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+  top: 200px;
+  left: 139px;
+}
+.sg-logo-small {
+  width: 10%;
+  height: 10%;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.circled-plus {
+  width: 7%;
+  height: 7%;
+  justify-content: center;
+  opacity: 1;
+  position: absolute;
+  top: 170px;
+  left: 1500px;
+}

@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`comment matches snapshot 1`] = `
+<ul
+  className="MuiList-root makeStyles-root-9 MuiList-padding"
+>
+  <li
+    className="MuiListItem-root MuiListItem-gutters MuiListItem-alignItemsFlexStart"
+    disabled={false}
+  >
+    <div
+      className="MuiListItemAvatar-root MuiListItemAvatar-alignItemsFlexStart"
+    >
+      <div
+        className="MuiAvatar-root MuiAvatar-circular"
+      >
+        <img
+          alt="Remy Sharp"
+          className="MuiAvatar-img"
+          src="https://images.unsplash.com/photo-1609220361638-14ceb45e5e1e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiListItemText-root MuiListItemText-multiline"
+    >
+      <span
+        className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+      >
+        username
+      </span>
+      <p
+        className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+      >
+        <span
+          className="MuiTypography-root makeStyles-inline-10 MuiTypography-body2 MuiTypography-colorTextPrimary"
+        >
+          this is comment
+        </span>
+      </p>
+    </div>
+  </li>
+  <li
+    className="MuiDivider-root MuiDivider-inset"
+    role="separator"
+  />
+</ul>
+`;
+
+exports[`feed matches snapshot 1`] = `
+<div
+  className="Feed"
+>
+  <nav
+    className="navbar"
+  >
+    <div
+      className="left-section-feed"
+    >
+      <img
+        alt="social ground logo "
+        className="small-logo"
+        src={Object {}}
+      />
+    </div>
+    <div
+      className="right-section-feed"
+    >
+      <div
+        className="search-icon-area"
+      >
+        <a
+          href="/Find"
+          onClick={[Function]}
+        >
+          <button
+            className="icon-btn"
+          >
+            <img
+              alt="search icon"
+              className="search-icon"
+              src={Object {}}
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        className="plus-sign-area"
+      >
+        <a
+          href="/upload"
+          onClick={[Function]}
+        >
+          <button
+            className="plus-btn"
+          >
+            <img
+              alt="plus sign icon"
+              className="plus-sign-icon"
+              src={Object {}}
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        className="profile-icon-area"
+      >
+        <a
+          href="/profile"
+          onClick={[Function]}
+        >
+          <button
+            className="profile-btn"
+          >
+            <img
+              alt="profile-icon"
+              className="profile-icon"
+              src={Object {}}
+            />
+          </button>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <section>
+    <div>
+      Loading...
+    </div>
+  </section>
+</div>
+`;
