@@ -1,0 +1,263 @@
+.form-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100dvh;
+    overflow: hidden;
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+    background-color: #fff;
+    background-color: rgba(var(--d87, 255, 255, 255), 1);
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 32px auto 0;
+    max-width: 935px;
+    padding: 200px 0px 32px 530px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.form-container:last-child {
+    margin-bottom: 0;
+}
+
+.form-container:empty {
+    display: none;
+}
+
+
+@media (max-width:450px) {
+    .form-container {
+        background-color: transparent;
+    }
+}
+
+.form-divider {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border: 0px solid #dbdbdb;
+    border: 0px solid rgba(var(--b6a, 219, 219, 219), 1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    position: relative;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.form-row-container {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fafafa;
+    background: rgba(var(--b3f, 250, 250, 250), 1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #262626;
+    color: rgba(var(--i1d, 38, 38, 38), 1);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    width: 100%
+}
+
+.form-fields {
+    color: #8e8e8e;
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    font-size: 12px;
+    height: 36px;
+    left: 8px;
+    line-height: 15px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    text-overflow: ellipsis;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-transition: -webkit-transform ease-out .1s;
+    transition: -webkit-transform ease-out .1s;
+    transition: transform ease-out .1s;
+    transition: transform ease-out .1s, -webkit-transform ease-out .1s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    -webkit-transform: scale(.83333) translateY(-10px);
+    transform: scale(.83333) translateY(-10px)
+}
+
+.form-field-entry {
+    background: #fafafa;
+    background: rgba(var(--b3f, 250, 250, 250), 1);
+    border: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis
+}
+
+.form-cell {
+    background: #fafafa;
+    background: rgba(var(--b3f, 250, 250, 250), 1);
+    border: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis
+}
+
+button {
+    border-radius: 4px;
+    color: #fff;
+    color: rgba(var(--eca, 255, 255, 255), 1);
+    position: relative;
+    background-color: #008EAD;
+    /* background-color: rgba(var(--d69, 0, 149, 246), 1); */
+    border: 1px solid transparent;
+    padding: 7px
+}
+
+.password-reset {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: inline !important;
+    margin: 0 !important;
+}
+
+.large-sg-header-homepage-redirect {
+    position: relative;
+    justify-content: left;
+    top: 5%;
+}
+
+.large-logo {
+    width: 40%;
+    height: 40%;
+    justify-content: left;
+    position: relative
+}
+
+.small-logo {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    justify-content: center;
+}
+
+#successfulMessage {
+    justify-content: center;
+    margin: auto;
+    max-width: 935px;
+    padding-top: 230px;
+    padding-bottom: 32px;
+    width: 100%;
+    font-size: 14px !important;
+}
+
+
+.registrationMessage,
+.resetMessage,
+.login-trouble-label,
+.login-trouble-description-label,
+.successfulMessageRow,
+.login-trouble-description,
+.Welcome {
+    color: #8e8e8e;
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center
+}
+
+.empty {
+    opacity: 0;
+}
+
+.question-mark {
+    width: 7%;
+    height: 13%;
+    justify-content: center;
+    opacity: 0.5;
+    position: relative;
+    left: 15.5%
+}
+
+.reset-form,
+.login-form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 350px !important;
+}
+
+a, Link, 
+.password-reset,
+.sign-up {
+    color: #1772FA;
+}
+
+.log-in-redirect,
+.sign-up-redirect,
+.password-reset {
+    font-size: 14px
+}
+
+.regMsg {
+    color: #ff0000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    margin: 0 40px 10px;
+    text-align: center
+}
